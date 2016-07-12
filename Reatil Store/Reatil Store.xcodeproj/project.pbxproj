@@ -1,0 +1,857 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		030BB21A1CEB32B900578CFF /* SKSTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 030BB2151CEB32B900578CFF /* SKSTableView.m */; };
+		030BB21B1CEB32B900578CFF /* SKSTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 030BB2171CEB32B900578CFF /* SKSTableViewCell.m */; };
+		030BB21C1CEB32B900578CFF /* SKSTableViewCellIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 030BB2191CEB32B900578CFF /* SKSTableViewCellIndicator.m */; };
+		0319BB5B1CEA1514009DFC91 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0319BB5A1CEA1514009DFC91 /* main.m */; };
+		0319BB5E1CEA1514009DFC91 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0319BB5D1CEA1514009DFC91 /* AppDelegate.m */; };
+		0319BB641CEA1514009DFC91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0319BB621CEA1514009DFC91 /* Main.storyboard */; };
+		0319BB661CEA1514009DFC91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0319BB651CEA1514009DFC91 /* Assets.xcassets */; };
+		0319BB691CEA1514009DFC91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0319BB671CEA1514009DFC91 /* LaunchScreen.storyboard */; };
+		0319BB741CEA1514009DFC91 /* Reatil_StoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0319BB731CEA1514009DFC91 /* Reatil_StoreTests.m */; };
+		0319BB7F1CEA1514009DFC91 /* Reatil_StoreUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0319BB7E1CEA1514009DFC91 /* Reatil_StoreUITests.m */; };
+		0319BB941CEA1B0A009DFC91 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0319BB931CEA1B0A009DFC91 /* SWRevealViewController.m */; };
+		0319BB991CEA1B26009DFC91 /* LeftSideTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0319BB961CEA1B26009DFC91 /* LeftSideTableViewController.m */; };
+		0319BB9A1CEA1B26009DFC91 /* LeftTableViewCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0319BB981CEA1B26009DFC91 /* LeftTableViewCustomCell.m */; };
+		0319BBA01CEA1BA4009DFC91 /* HomeCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0319BB9D1CEA1BA4009DFC91 /* HomeCustomCell.m */; };
+		0319BBA11CEA1BA4009DFC91 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0319BB9F1CEA1BA4009DFC91 /* HomeViewController.m */; };
+		0319BBA61CEA1EE0009DFC91 /* ProductCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0319BBA31CEA1EE0009DFC91 /* ProductCollectionViewCell.m */; };
+		0319BBA71CEA1EE0009DFC91 /* ProductListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0319BBA51CEA1EE0009DFC91 /* ProductListViewController.m */; };
+		0319BBAC1CEA1F73009DFC91 /* productImagesTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0319BBAB1CEA1F73009DFC91 /* productImagesTableViewCell.m */; };
+		0319BBB21CEA1FCA009DFC91 /* ProductDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0319BBB11CEA1FCA009DFC91 /* ProductDetailViewController.m */; };
+		0319BBB71CEA2225009DFC91 /* CartSummaryCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0319BBB61CEA2225009DFC91 /* CartSummaryCustomCell.m */; };
+		0319BBBA1CEA2233009DFC91 /* ProductCartCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0319BBB91CEA2233009DFC91 /* ProductCartCustomCell.m */; };
+		0319BBBD1CEA2268009DFC91 /* ProductCartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0319BBBC1CEA2268009DFC91 /* ProductCartViewController.m */; };
+		0319BBC11CEA3285009DFC91 /* RealmObjectClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 0319BBC01CEA3285009DFC91 /* RealmObjectClass.m */; };
+		0319BBC81CEA3753009DFC91 /* UIBarButtonItem+Badge.m in Sources */ = {isa = PBXBuildFile; fileRef = 0319BBC51CEA3753009DFC91 /* UIBarButtonItem+Badge.m */; };
+		0319BBC91CEA3753009DFC91 /* UIButton+Badge.m in Sources */ = {isa = PBXBuildFile; fileRef = 0319BBC71CEA3753009DFC91 /* UIButton+Badge.m */; };
+		03B186451CEB57E90078044A /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 03B1863F1CEB57E90078044A /* SVIndefiniteAnimatedView.m */; };
+		03B186461CEB57E90078044A /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 03B186401CEB57E90078044A /* SVProgressHUD.bundle */; };
+		03B186471CEB57E90078044A /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 03B186421CEB57E90078044A /* SVProgressHUD.m */; };
+		03B186481CEB57E90078044A /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 03B186441CEB57E90078044A /* SVRadialGradientLayer.m */; };
+		03B1864B1CEB69F30078044A /* addToCartTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 03B1864A1CEB69F30078044A /* addToCartTableViewCell.m */; };
+		099751F252AA4184B365695C /* libPods-Reatil Store.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 757951FBA7D8A57AB18AD085 /* libPods-Reatil Store.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0319BB701CEA1514009DFC91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0319BB4E1CEA1514009DFC91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0319BB551CEA1514009DFC91;
+			remoteInfo = "Reatil Store";
+		};
+		0319BB7B1CEA1514009DFC91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0319BB4E1CEA1514009DFC91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0319BB551CEA1514009DFC91;
+			remoteInfo = "Reatil Store";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		030BB2141CEB32B900578CFF /* SKSTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKSTableView.h; sourceTree = "<group>"; };
+		030BB2151CEB32B900578CFF /* SKSTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKSTableView.m; sourceTree = "<group>"; };
+		030BB2161CEB32B900578CFF /* SKSTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKSTableViewCell.h; sourceTree = "<group>"; };
+		030BB2171CEB32B900578CFF /* SKSTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKSTableViewCell.m; sourceTree = "<group>"; };
+		030BB2181CEB32B900578CFF /* SKSTableViewCellIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKSTableViewCellIndicator.h; sourceTree = "<group>"; };
+		030BB2191CEB32B900578CFF /* SKSTableViewCellIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKSTableViewCellIndicator.m; sourceTree = "<group>"; };
+		0319BB561CEA1514009DFC91 /* Reatil Store.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Reatil Store.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0319BB5A1CEA1514009DFC91 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0319BB5C1CEA1514009DFC91 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0319BB5D1CEA1514009DFC91 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0319BB631CEA1514009DFC91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0319BB651CEA1514009DFC91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0319BB681CEA1514009DFC91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0319BB6A1CEA1514009DFC91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0319BB6F1CEA1514009DFC91 /* Reatil StoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Reatil StoreTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0319BB731CEA1514009DFC91 /* Reatil_StoreTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Reatil_StoreTests.m; sourceTree = "<group>"; };
+		0319BB751CEA1514009DFC91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0319BB7A1CEA1514009DFC91 /* Reatil StoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Reatil StoreUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0319BB7E1CEA1514009DFC91 /* Reatil_StoreUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Reatil_StoreUITests.m; sourceTree = "<group>"; };
+		0319BB801CEA1514009DFC91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0319BB921CEA1B0A009DFC91 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		0319BB931CEA1B0A009DFC91 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		0319BB951CEA1B26009DFC91 /* LeftSideTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftSideTableViewController.h; sourceTree = "<group>"; };
+		0319BB961CEA1B26009DFC91 /* LeftSideTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftSideTableViewController.m; sourceTree = "<group>"; };
+		0319BB971CEA1B26009DFC91 /* LeftTableViewCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftTableViewCustomCell.h; sourceTree = "<group>"; };
+		0319BB981CEA1B26009DFC91 /* LeftTableViewCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftTableViewCustomCell.m; sourceTree = "<group>"; };
+		0319BB9C1CEA1BA4009DFC91 /* HomeCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeCustomCell.h; sourceTree = "<group>"; };
+		0319BB9D1CEA1BA4009DFC91 /* HomeCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeCustomCell.m; sourceTree = "<group>"; };
+		0319BB9E1CEA1BA4009DFC91 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		0319BB9F1CEA1BA4009DFC91 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		0319BBA21CEA1EE0009DFC91 /* ProductCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductCollectionViewCell.h; sourceTree = "<group>"; };
+		0319BBA31CEA1EE0009DFC91 /* ProductCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductCollectionViewCell.m; sourceTree = "<group>"; };
+		0319BBA41CEA1EE0009DFC91 /* ProductListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductListViewController.h; sourceTree = "<group>"; };
+		0319BBA51CEA1EE0009DFC91 /* ProductListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductListViewController.m; sourceTree = "<group>"; };
+		0319BBAA1CEA1F73009DFC91 /* productImagesTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = productImagesTableViewCell.h; sourceTree = "<group>"; };
+		0319BBAB1CEA1F73009DFC91 /* productImagesTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = productImagesTableViewCell.m; sourceTree = "<group>"; };
+		0319BBB01CEA1FCA009DFC91 /* ProductDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductDetailViewController.h; sourceTree = "<group>"; };
+		0319BBB11CEA1FCA009DFC91 /* ProductDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductDetailViewController.m; sourceTree = "<group>"; };
+		0319BBB51CEA2225009DFC91 /* CartSummaryCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CartSummaryCustomCell.h; sourceTree = "<group>"; };
+		0319BBB61CEA2225009DFC91 /* CartSummaryCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CartSummaryCustomCell.m; sourceTree = "<group>"; };
+		0319BBB81CEA2233009DFC91 /* ProductCartCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductCartCustomCell.h; sourceTree = "<group>"; };
+		0319BBB91CEA2233009DFC91 /* ProductCartCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductCartCustomCell.m; sourceTree = "<group>"; };
+		0319BBBB1CEA2268009DFC91 /* ProductCartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductCartViewController.h; sourceTree = "<group>"; };
+		0319BBBC1CEA2268009DFC91 /* ProductCartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductCartViewController.m; sourceTree = "<group>"; };
+		0319BBBE1CEA29B8009DFC91 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		0319BBBF1CEA3285009DFC91 /* RealmObjectClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RealmObjectClass.h; sourceTree = "<group>"; };
+		0319BBC01CEA3285009DFC91 /* RealmObjectClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RealmObjectClass.m; sourceTree = "<group>"; };
+		0319BBC41CEA3753009DFC91 /* UIBarButtonItem+Badge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Badge.h"; sourceTree = "<group>"; };
+		0319BBC51CEA3753009DFC91 /* UIBarButtonItem+Badge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Badge.m"; sourceTree = "<group>"; };
+		0319BBC61CEA3753009DFC91 /* UIButton+Badge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Badge.h"; sourceTree = "<group>"; };
+		0319BBC71CEA3753009DFC91 /* UIButton+Badge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Badge.m"; sourceTree = "<group>"; };
+		03B1863E1CEB57E90078044A /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		03B1863F1CEB57E90078044A /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		03B186401CEB57E90078044A /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		03B186411CEB57E90078044A /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		03B186421CEB57E90078044A /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		03B186431CEB57E90078044A /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		03B186441CEB57E90078044A /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		03B186491CEB69F30078044A /* addToCartTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = addToCartTableViewCell.h; sourceTree = "<group>"; };
+		03B1864A1CEB69F30078044A /* addToCartTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = addToCartTableViewCell.m; sourceTree = "<group>"; };
+		757951FBA7D8A57AB18AD085 /* libPods-Reatil Store.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Reatil Store.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B00756FE17D5A41E385791E /* Pods-Reatil Store.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reatil Store.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Reatil Store/Pods-Reatil Store.debug.xcconfig"; sourceTree = "<group>"; };
+		EEFCB44E97F0BC980E8C58EC /* Pods-Reatil Store.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reatil Store.release.xcconfig"; path = "Pods/Target Support Files/Pods-Reatil Store/Pods-Reatil Store.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0319BB531CEA1514009DFC91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				099751F252AA4184B365695C /* libPods-Reatil Store.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0319BB6C1CEA1514009DFC91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0319BB771CEA1514009DFC91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		030BB2131CEB32A500578CFF /* SKSTableView */ = {
+			isa = PBXGroup;
+			children = (
+				030BB2141CEB32B900578CFF /* SKSTableView.h */,
+				030BB2151CEB32B900578CFF /* SKSTableView.m */,
+				030BB2161CEB32B900578CFF /* SKSTableViewCell.h */,
+				030BB2171CEB32B900578CFF /* SKSTableViewCell.m */,
+				030BB2181CEB32B900578CFF /* SKSTableViewCellIndicator.h */,
+				030BB2191CEB32B900578CFF /* SKSTableViewCellIndicator.m */,
+			);
+			name = SKSTableView;
+			sourceTree = "<group>";
+		};
+		0319BB4D1CEA1514009DFC91 = {
+			isa = PBXGroup;
+			children = (
+				0319BB581CEA1514009DFC91 /* Reatil Store */,
+				0319BB721CEA1514009DFC91 /* Reatil StoreTests */,
+				0319BB7D1CEA1514009DFC91 /* Reatil StoreUITests */,
+				0319BB571CEA1514009DFC91 /* Products */,
+				FA82E7B04102C321A7055581 /* Pods */,
+				D94093BAA95AA93A1FD892A7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0319BB571CEA1514009DFC91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0319BB561CEA1514009DFC91 /* Reatil Store.app */,
+				0319BB6F1CEA1514009DFC91 /* Reatil StoreTests.xctest */,
+				0319BB7A1CEA1514009DFC91 /* Reatil StoreUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0319BB581CEA1514009DFC91 /* Reatil Store */ = {
+			isa = PBXGroup;
+			children = (
+				0319BBBE1CEA29B8009DFC91 /* Constants.h */,
+				0319BB8F1CEA1A89009DFC91 /* Left Side Menu */,
+				0319BB8E1CEA1A80009DFC91 /* Home Screen */,
+				0319BB8D1CEA1A7C009DFC91 /* Product List */,
+				0319BB8C1CEA1A78009DFC91 /* Product Details */,
+				0319BB901CEA1AA2009DFC91 /* Cart View */,
+				0319BB5C1CEA1514009DFC91 /* AppDelegate.h */,
+				0319BB5D1CEA1514009DFC91 /* AppDelegate.m */,
+				0319BB621CEA1514009DFC91 /* Main.storyboard */,
+				0319BB651CEA1514009DFC91 /* Assets.xcassets */,
+				0319BB671CEA1514009DFC91 /* LaunchScreen.storyboard */,
+				0319BB6A1CEA1514009DFC91 /* Info.plist */,
+				0319BBC21CEA329C009DFC91 /* Realm Object Class */,
+				0319BB591CEA1514009DFC91 /* Supporting Files */,
+			);
+			path = "Reatil Store";
+			sourceTree = "<group>";
+		};
+		0319BB591CEA1514009DFC91 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03B1863D1CEB57C90078044A /* SVProgressHUD Class */,
+				030BB2131CEB32A500578CFF /* SKSTableView */,
+				0319BBC31CEA373D009DFC91 /* Button Badge Class */,
+				0319BB5A1CEA1514009DFC91 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0319BB721CEA1514009DFC91 /* Reatil StoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				0319BB731CEA1514009DFC91 /* Reatil_StoreTests.m */,
+				0319BB751CEA1514009DFC91 /* Info.plist */,
+			);
+			path = "Reatil StoreTests";
+			sourceTree = "<group>";
+		};
+		0319BB7D1CEA1514009DFC91 /* Reatil StoreUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0319BB7E1CEA1514009DFC91 /* Reatil_StoreUITests.m */,
+				0319BB801CEA1514009DFC91 /* Info.plist */,
+			);
+			path = "Reatil StoreUITests";
+			sourceTree = "<group>";
+		};
+		0319BB8C1CEA1A78009DFC91 /* Product Details */ = {
+			isa = PBXGroup;
+			children = (
+				0319BBB01CEA1FCA009DFC91 /* ProductDetailViewController.h */,
+				0319BBB11CEA1FCA009DFC91 /* ProductDetailViewController.m */,
+				0319BBA91CEA1F51009DFC91 /* Image Cell */,
+				0319BBA81CEA1F4A009DFC91 /* AddToCart Button Cell */,
+			);
+			name = "Product Details";
+			sourceTree = "<group>";
+		};
+		0319BB8D1CEA1A7C009DFC91 /* Product List */ = {
+			isa = PBXGroup;
+			children = (
+				0319BBA21CEA1EE0009DFC91 /* ProductCollectionViewCell.h */,
+				0319BBA31CEA1EE0009DFC91 /* ProductCollectionViewCell.m */,
+				0319BBA41CEA1EE0009DFC91 /* ProductListViewController.h */,
+				0319BBA51CEA1EE0009DFC91 /* ProductListViewController.m */,
+			);
+			name = "Product List";
+			sourceTree = "<group>";
+		};
+		0319BB8E1CEA1A80009DFC91 /* Home Screen */ = {
+			isa = PBXGroup;
+			children = (
+				0319BB9B1CEA1B90009DFC91 /* Home CustomCell */,
+				0319BB9E1CEA1BA4009DFC91 /* HomeViewController.h */,
+				0319BB9F1CEA1BA4009DFC91 /* HomeViewController.m */,
+			);
+			name = "Home Screen";
+			sourceTree = "<group>";
+		};
+		0319BB8F1CEA1A89009DFC91 /* Left Side Menu */ = {
+			isa = PBXGroup;
+			children = (
+				0319BB911CEA1AE9009DFC91 /* SWReveal Class */,
+				0319BB951CEA1B26009DFC91 /* LeftSideTableViewController.h */,
+				0319BB961CEA1B26009DFC91 /* LeftSideTableViewController.m */,
+				0319BB971CEA1B26009DFC91 /* LeftTableViewCustomCell.h */,
+				0319BB981CEA1B26009DFC91 /* LeftTableViewCustomCell.m */,
+			);
+			name = "Left Side Menu";
+			sourceTree = "<group>";
+		};
+		0319BB901CEA1AA2009DFC91 /* Cart View */ = {
+			isa = PBXGroup;
+			children = (
+				0319BBBB1CEA2268009DFC91 /* ProductCartViewController.h */,
+				0319BBBC1CEA2268009DFC91 /* ProductCartViewController.m */,
+				0319BBB41CEA220A009DFC91 /* Cart Summary Custom Cell */,
+				0319BBB31CEA2201009DFC91 /* Product Cart Custom Cell */,
+			);
+			name = "Cart View";
+			sourceTree = "<group>";
+		};
+		0319BB911CEA1AE9009DFC91 /* SWReveal Class */ = {
+			isa = PBXGroup;
+			children = (
+				0319BB921CEA1B0A009DFC91 /* SWRevealViewController.h */,
+				0319BB931CEA1B0A009DFC91 /* SWRevealViewController.m */,
+			);
+			name = "SWReveal Class";
+			sourceTree = "<group>";
+		};
+		0319BB9B1CEA1B90009DFC91 /* Home CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				0319BB9C1CEA1BA4009DFC91 /* HomeCustomCell.h */,
+				0319BB9D1CEA1BA4009DFC91 /* HomeCustomCell.m */,
+			);
+			name = "Home CustomCell";
+			sourceTree = "<group>";
+		};
+		0319BBA81CEA1F4A009DFC91 /* AddToCart Button Cell */ = {
+			isa = PBXGroup;
+			children = (
+				03B186491CEB69F30078044A /* addToCartTableViewCell.h */,
+				03B1864A1CEB69F30078044A /* addToCartTableViewCell.m */,
+			);
+			name = "AddToCart Button Cell";
+			sourceTree = "<group>";
+		};
+		0319BBA91CEA1F51009DFC91 /* Image Cell */ = {
+			isa = PBXGroup;
+			children = (
+				0319BBAA1CEA1F73009DFC91 /* productImagesTableViewCell.h */,
+				0319BBAB1CEA1F73009DFC91 /* productImagesTableViewCell.m */,
+			);
+			name = "Image Cell";
+			sourceTree = "<group>";
+		};
+		0319BBB31CEA2201009DFC91 /* Product Cart Custom Cell */ = {
+			isa = PBXGroup;
+			children = (
+				0319BBB81CEA2233009DFC91 /* ProductCartCustomCell.h */,
+				0319BBB91CEA2233009DFC91 /* ProductCartCustomCell.m */,
+			);
+			name = "Product Cart Custom Cell";
+			sourceTree = "<group>";
+		};
+		0319BBB41CEA220A009DFC91 /* Cart Summary Custom Cell */ = {
+			isa = PBXGroup;
+			children = (
+				0319BBB51CEA2225009DFC91 /* CartSummaryCustomCell.h */,
+				0319BBB61CEA2225009DFC91 /* CartSummaryCustomCell.m */,
+			);
+			name = "Cart Summary Custom Cell";
+			sourceTree = "<group>";
+		};
+		0319BBC21CEA329C009DFC91 /* Realm Object Class */ = {
+			isa = PBXGroup;
+			children = (
+				0319BBBF1CEA3285009DFC91 /* RealmObjectClass.h */,
+				0319BBC01CEA3285009DFC91 /* RealmObjectClass.m */,
+			);
+			name = "Realm Object Class";
+			sourceTree = "<group>";
+		};
+		0319BBC31CEA373D009DFC91 /* Button Badge Class */ = {
+			isa = PBXGroup;
+			children = (
+				0319BBC41CEA3753009DFC91 /* UIBarButtonItem+Badge.h */,
+				0319BBC51CEA3753009DFC91 /* UIBarButtonItem+Badge.m */,
+				0319BBC61CEA3753009DFC91 /* UIButton+Badge.h */,
+				0319BBC71CEA3753009DFC91 /* UIButton+Badge.m */,
+			);
+			name = "Button Badge Class";
+			sourceTree = "<group>";
+		};
+		03B1863D1CEB57C90078044A /* SVProgressHUD Class */ = {
+			isa = PBXGroup;
+			children = (
+				03B1863E1CEB57E90078044A /* SVIndefiniteAnimatedView.h */,
+				03B1863F1CEB57E90078044A /* SVIndefiniteAnimatedView.m */,
+				03B186401CEB57E90078044A /* SVProgressHUD.bundle */,
+				03B186411CEB57E90078044A /* SVProgressHUD.h */,
+				03B186421CEB57E90078044A /* SVProgressHUD.m */,
+				03B186431CEB57E90078044A /* SVRadialGradientLayer.h */,
+				03B186441CEB57E90078044A /* SVRadialGradientLayer.m */,
+			);
+			name = "SVProgressHUD Class";
+			sourceTree = "<group>";
+		};
+		D94093BAA95AA93A1FD892A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				757951FBA7D8A57AB18AD085 /* libPods-Reatil Store.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA82E7B04102C321A7055581 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8B00756FE17D5A41E385791E /* Pods-Reatil Store.debug.xcconfig */,
+				EEFCB44E97F0BC980E8C58EC /* Pods-Reatil Store.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0319BB551CEA1514009DFC91 /* Reatil Store */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0319BB831CEA1514009DFC91 /* Build configuration list for PBXNativeTarget "Reatil Store" */;
+			buildPhases = (
+				E5A8C3BBE3955B9A07A754C7 /* Check Pods Manifest.lock */,
+				0319BB521CEA1514009DFC91 /* Sources */,
+				0319BB531CEA1514009DFC91 /* Frameworks */,
+				0319BB541CEA1514009DFC91 /* Resources */,
+				AEB18A21B11171674EAA0432 /* Embed Pods Frameworks */,
+				2EC60EADEDFC2A360684E2F0 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Reatil Store";
+			productName = "Reatil Store";
+			productReference = 0319BB561CEA1514009DFC91 /* Reatil Store.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0319BB6E1CEA1514009DFC91 /* Reatil StoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0319BB861CEA1514009DFC91 /* Build configuration list for PBXNativeTarget "Reatil StoreTests" */;
+			buildPhases = (
+				0319BB6B1CEA1514009DFC91 /* Sources */,
+				0319BB6C1CEA1514009DFC91 /* Frameworks */,
+				0319BB6D1CEA1514009DFC91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0319BB711CEA1514009DFC91 /* PBXTargetDependency */,
+			);
+			name = "Reatil StoreTests";
+			productName = "Reatil StoreTests";
+			productReference = 0319BB6F1CEA1514009DFC91 /* Reatil StoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0319BB791CEA1514009DFC91 /* Reatil StoreUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0319BB891CEA1514009DFC91 /* Build configuration list for PBXNativeTarget "Reatil StoreUITests" */;
+			buildPhases = (
+				0319BB761CEA1514009DFC91 /* Sources */,
+				0319BB771CEA1514009DFC91 /* Frameworks */,
+				0319BB781CEA1514009DFC91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0319BB7C1CEA1514009DFC91 /* PBXTargetDependency */,
+			);
+			name = "Reatil StoreUITests";
+			productName = "Reatil StoreUITests";
+			productReference = 0319BB7A1CEA1514009DFC91 /* Reatil StoreUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0319BB4E1CEA1514009DFC91 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Paras Gorasiya";
+				TargetAttributes = {
+					0319BB551CEA1514009DFC91 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					0319BB6E1CEA1514009DFC91 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 0319BB551CEA1514009DFC91;
+					};
+					0319BB791CEA1514009DFC91 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 0319BB551CEA1514009DFC91;
+					};
+				};
+			};
+			buildConfigurationList = 0319BB511CEA1514009DFC91 /* Build configuration list for PBXProject "Reatil Store" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0319BB4D1CEA1514009DFC91;
+			productRefGroup = 0319BB571CEA1514009DFC91 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0319BB551CEA1514009DFC91 /* Reatil Store */,
+				0319BB6E1CEA1514009DFC91 /* Reatil StoreTests */,
+				0319BB791CEA1514009DFC91 /* Reatil StoreUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0319BB541CEA1514009DFC91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0319BB691CEA1514009DFC91 /* LaunchScreen.storyboard in Resources */,
+				0319BB661CEA1514009DFC91 /* Assets.xcassets in Resources */,
+				0319BB641CEA1514009DFC91 /* Main.storyboard in Resources */,
+				03B186461CEB57E90078044A /* SVProgressHUD.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0319BB6D1CEA1514009DFC91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0319BB781CEA1514009DFC91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2EC60EADEDFC2A360684E2F0 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Reatil Store/Pods-Reatil Store-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AEB18A21B11171674EAA0432 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Reatil Store/Pods-Reatil Store-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5A8C3BBE3955B9A07A754C7 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0319BB521CEA1514009DFC91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0319BBBD1CEA2268009DFC91 /* ProductCartViewController.m in Sources */,
+				030BB21B1CEB32B900578CFF /* SKSTableViewCell.m in Sources */,
+				0319BBA71CEA1EE0009DFC91 /* ProductListViewController.m in Sources */,
+				0319BBA61CEA1EE0009DFC91 /* ProductCollectionViewCell.m in Sources */,
+				03B1864B1CEB69F30078044A /* addToCartTableViewCell.m in Sources */,
+				0319BBA01CEA1BA4009DFC91 /* HomeCustomCell.m in Sources */,
+				030BB21C1CEB32B900578CFF /* SKSTableViewCellIndicator.m in Sources */,
+				0319BBAC1CEA1F73009DFC91 /* productImagesTableViewCell.m in Sources */,
+				0319BBB21CEA1FCA009DFC91 /* ProductDetailViewController.m in Sources */,
+				03B186451CEB57E90078044A /* SVIndefiniteAnimatedView.m in Sources */,
+				03B186471CEB57E90078044A /* SVProgressHUD.m in Sources */,
+				0319BBC91CEA3753009DFC91 /* UIButton+Badge.m in Sources */,
+				0319BB9A1CEA1B26009DFC91 /* LeftTableViewCustomCell.m in Sources */,
+				0319BB5E1CEA1514009DFC91 /* AppDelegate.m in Sources */,
+				0319BB5B1CEA1514009DFC91 /* main.m in Sources */,
+				030BB21A1CEB32B900578CFF /* SKSTableView.m in Sources */,
+				0319BB991CEA1B26009DFC91 /* LeftSideTableViewController.m in Sources */,
+				0319BBC81CEA3753009DFC91 /* UIBarButtonItem+Badge.m in Sources */,
+				0319BBC11CEA3285009DFC91 /* RealmObjectClass.m in Sources */,
+				03B186481CEB57E90078044A /* SVRadialGradientLayer.m in Sources */,
+				0319BB941CEA1B0A009DFC91 /* SWRevealViewController.m in Sources */,
+				0319BBBA1CEA2233009DFC91 /* ProductCartCustomCell.m in Sources */,
+				0319BBA11CEA1BA4009DFC91 /* HomeViewController.m in Sources */,
+				0319BBB71CEA2225009DFC91 /* CartSummaryCustomCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0319BB6B1CEA1514009DFC91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0319BB741CEA1514009DFC91 /* Reatil_StoreTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0319BB761CEA1514009DFC91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0319BB7F1CEA1514009DFC91 /* Reatil_StoreUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0319BB711CEA1514009DFC91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0319BB551CEA1514009DFC91 /* Reatil Store */;
+			targetProxy = 0319BB701CEA1514009DFC91 /* PBXContainerItemProxy */;
+		};
+		0319BB7C1CEA1514009DFC91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0319BB551CEA1514009DFC91 /* Reatil Store */;
+			targetProxy = 0319BB7B1CEA1514009DFC91 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0319BB621CEA1514009DFC91 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0319BB631CEA1514009DFC91 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0319BB671CEA1514009DFC91 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0319BB681CEA1514009DFC91 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0319BB811CEA1514009DFC91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0319BB821CEA1514009DFC91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0319BB841CEA1514009DFC91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B00756FE17D5A41E385791E /* Pods-Reatil Store.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Reatil Store/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.paras.retailStore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0319BB851CEA1514009DFC91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEFCB44E97F0BC980E8C58EC /* Pods-Reatil Store.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Reatil Store/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.paras.retailStore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0319BB871CEA1514009DFC91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Reatil StoreTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.paras.retailStore.Reatil-StoreTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Reatil Store.app/Reatil Store";
+			};
+			name = Debug;
+		};
+		0319BB881CEA1514009DFC91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Reatil StoreTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.paras.retailStore.Reatil-StoreTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Reatil Store.app/Reatil Store";
+			};
+			name = Release;
+		};
+		0319BB8A1CEA1514009DFC91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Reatil StoreUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.paras.retailStore.Reatil-StoreUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Reatil Store";
+			};
+			name = Debug;
+		};
+		0319BB8B1CEA1514009DFC91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Reatil StoreUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.paras.retailStore.Reatil-StoreUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Reatil Store";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0319BB511CEA1514009DFC91 /* Build configuration list for PBXProject "Reatil Store" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0319BB811CEA1514009DFC91 /* Debug */,
+				0319BB821CEA1514009DFC91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0319BB831CEA1514009DFC91 /* Build configuration list for PBXNativeTarget "Reatil Store" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0319BB841CEA1514009DFC91 /* Debug */,
+				0319BB851CEA1514009DFC91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0319BB861CEA1514009DFC91 /* Build configuration list for PBXNativeTarget "Reatil StoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0319BB871CEA1514009DFC91 /* Debug */,
+				0319BB881CEA1514009DFC91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0319BB891CEA1514009DFC91 /* Build configuration list for PBXNativeTarget "Reatil StoreUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0319BB8A1CEA1514009DFC91 /* Debug */,
+				0319BB8B1CEA1514009DFC91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0319BB4E1CEA1514009DFC91 /* Project object */;
+}
